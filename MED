@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina del Sheriff del Condado de Los Santos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header img {
+            width: 100px;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .content {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo del Sheriff de Los Santos">
+        <h1>Oficina del Sheriff del Condado de Los Santos</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <div id="inicio" class="content">
+            <h2>Bienvenidos</h2>
+            <p>Bienvenido a la página oficial de la Oficina del Sheriff del Condado de Los Santos. Nuestro objetivo es servir y proteger a nuestra comunidad con integridad y profesionalismo.</p>
+        </div>
+        <div id="sobre-nosotros" class="content">
+            <h2>Sobre Nosotros</h2>
+            <p>La Oficina del Sheriff del Condado de Los Santos se dedica a mantener la paz y el orden en nuestra comunidad. Nos enorgullecemos de nuestro compromiso con la seguridad pública y la justicia.</p>
+        </div>
+        <div id="servicios" class="content">
+            <h2>Servicios</h2>
+            <p>Ofrecemos una variedad de servicios para la comunidad, incluyendo patrullaje, investigaciones, y programas de prevención del crimen.</p>
+        </div>
+        <div id="contacto" class="content">
+            <h2>Contacto</h2>
+            <p>Dirección: 1234 Calle Ficticia, Los Santos, CA</p>
+            <p>Teléfono: (555) 123-4567</p>
+            <p>Email: info@lssheriff.gov</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Oficina del Sheriff del Condado de Los Santos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
